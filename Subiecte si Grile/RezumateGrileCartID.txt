@@ -1,0 +1,443 @@
+Modul 1
+
+1. Modelul client/server se refera la: Împărţirea operaţiilor de prelucrare
+a datelor între un calculator pe care se
+execută aplicaţia client şi un calculator
+mai puternic pe care se execută
+aplicaţia server.
+
+2. Topologia în care nu există capete libere este: Inel
+
+3. Topologia care îsi are originile în arhitectura unui calculator mainframe, este: Stea
+
+4. Relativ la modelul OSI, care nivel asigură transportul pachetelor de date la destinaţie, în succesiune, fără pierderi şi fără duplicate: Transport
+
+5. O subreţea de comunicaţie este alcătuită din: Routere
+
+6. Relativ la modelul OSI, determinarea căii de acces se face la nivelul: Retea
+
+7. Relativ la modelul OSI conversia setului de caractere şi stabilirea unui format comun apare la nivelul: Prezentare
+
+8. Prin care fenomen datele circulă de sus în jos, fiecare nivel primeşte o structura de date de
+la nivelul superior şi adaugă o zonă de informaţie specifica lui (antet), care conţine informaţii
+adresate nivelului corespondent de la gazda destinaţie: Incapsulare
+
+9. Modelul TCP/IP are: 4 nivele.
+
+10. Protocolul TCP se află la nivelul: Transport
+
+11. Regulile după care nivelurile comunica între ele formează:Protocolul nivelului respectiv
+
+12.Pentru unităţile care sunt conectate direct la o reţea se foloseşte termenul de:Gazda
+
+13.TCP/IP include serviciile oferite de nivelurile prezentare şi sesiune ale modelului OSI, în nivelul său: Aplicatie
+
+
+
+
+Modul 2 Unitate 1
+
+1. Metoda 4B/5B se referă la: Codificarea datelor în semnale
+
+2. Relativ la repetor, care dintre afirmaţii este adev:Este utilizat pentru a mări
+dimensiunea reţelei.
+
+3. Hub-ul este: de nivel 1
+
+4.Codificarea NRZI la sursă realizează :O tranziţie de la semnalul
+curent, pentru a codifica o cifră
+binară 1 şi rămâne în starea
+curentă, pentru a codifica o cifră
+binară 0.
+
+5. Care dintre metode codifică bitul 0, respectiv bitul 1 ca o tranziţie „low/high”,
+respectiv „high/ low”: Manchester
+
+6. În cazul cablului coaxial, stratul de ecranare este format din:O plasă metalică şi o cămaşă
+exterioară de protecţie.
+
+7. În cazul cablului torsadat, scopul împletirii firelor este:De a reduce interferenţa
+electrică
+
+8. Transmisia în banda largă presupune:Transmiterea de semnale
+analogice într-un domeniu de
+frecvenţe.
+
+9. Prin conectarea a două segmente de reţea printr-un repetor, domeniul de coliziune: creste
+
+10. Stratul de ecranare la cablul coaxial este format:Dintr-o plasă metalică şi o
+cămaşă exterioară de protecţie.
+
+
+
+
+Modul 2 Unitate 2
+
+1.Care dintre categoriile IEEE 802 definesc tehnologia token ring: 802.5
+
+2.Care dintre categoriile IEEE 802 definesc reţele metropolitane:802.6
+
+3.Care dintre subnivelurile nivelului legătură de date este responsabil de controlul
+accesului şi delimitarea cadrelor, detectarea erorilor şi recunoaşterea adreselor: MAC
+
+4.Care dispozitiv conectat la placa de reţea detectează când cablul este liber şi
+direcţionează semnalul când gazda îl transmite către mediul de comunicaţie: Transceiver
+
+5.Care formulare este corectă:  Adresa MAC are 48 de biţi şi
+este dată exclusiv de o autoritate
+centrală.
+
+6. Legat de switch, care afirmaţie este corectă:Foloseste adresele MAC pentru a
+micsorarea numarului domeniilor
+de coliziune. 
+
+7.Fast Ethernet înseamnă viteză de transfer de: 1000Mbps
+
+8.Pentru a transfera datele din calculator la placa de reţea, calculatorul şi placa
+trebuie comunică prin intermediul:registrului de control CSR.
+
+9.Numărul de coliziuni şi de încercări de evitare a acestora este direct proporţional
+cu:numărul de calculatoare din reţea
+
+10.. Care dintre metodele de acces la mediul de comunicaţie nu este competiţională: Transfer de jeton
+
+11.In cazul transmiterii neorientate pe conexiune a cadrelor de date, se presupune
+că: Fiecare cadru de date care trebuie
+transmis, conţine adresa completă
+de destinaţie.
+
+
+
+Modul 3 Unitate 1
+
+1.Fiecare reţea, care are o adresă din clasa A, poate avea asignate pentru unităţile
+ataşate ei, cel mult:2^24-2 adrese IP posibile
+
+2.Un mod de a recunoaşte dacă o unitate este ataşată unei adrese de tip B, este de a
+verifica dacă numărul memorat în primul octet este cuprins între: 128 şi 191.
+
+3. În cazul adreselor IP de clasă C, care octeţi identifică numărul de reţea:primii trei.
+
+4.Adresele din care clasă sunt de tip multicast:D
+
+5.Dacă cele trei reţele locale din figura 3.1.5 sunt de clasă A, gazdele A1, A2, B1,
+C1 pot avea adresele:
+125.126.127.128;
+125.126.127.129;
+125.127.127.130;
+125.125.124.123
+
+6. Numărul cel mai mare de adrese disponibile care pot fi atribuite gazdelor, se
+găseşte într-o reţea de: clasa A
+
+7. Pentru a se crea câmpul de subreţea se împrumută: Un număr de cel puţin 2 biţi,
+care sunt cei mai din stânga ai
+câmpului de gazdă.
+
+8. Pentru determinarea sub-reţelei căreia îi aparţine o anumită gazdă, se execută: O operaţie “şi” logic între adresa
+IP a gazdei destinaţie şi masca de
+subreţea, exprimate în forma
+binară
+
+9. Relativ la figura 3.1.5, care dintre protocoalele de rezoluţie a adreselor va fi
+folosit, dacă gazda A1 doreşte să transmită un pachet gazdei A3: ARP
+
+10. Relativ la figura 3.1.5, care dintre protocoalele de rezoluţie a adreselor va fi
+folosit, dacă gazda A1 doreşte să transmită un pachet gazdei C1: Proxy-ARP.
+
+11. Care dintre nivelurile OSI realizează routarea: Retea
+
+12. În cadrul unui LAN, un pachet primit de la interfaţa routerului este transportat: într-un cadru de date
+
+13. Un sistem autonom este: O regiune din reţeaua Internet
+care este administrată de o singură
+entitate.
+14. În cadrul cărui protocol de routare, costul fiecărei legături este 1:RIP
+
+15. Protocolul bazat pe vectorul distanţă RIP, efectuează routarea :în interiorul unui sistem autonom.
+
+
+Modul 3 Unitate 2
+
+1. Numerele de port pentru aplicaţii ale unor companii furnizoare de produse soft
+sunt: Numere între 255-1023.
+
+2. Protocolul TCP/IP, neorientată pe conexiune, corespunzător nivelului de
+transport, este:UDP
+
+3.Gazda care cere stabilirea unei conexiuni TCP va transmite un segment în care
+valorile biţilor de cod SYN şi ACK sunt: 1 si 0
+
+4. Recepţionarea unei valori egale cu 100 în câmpul număr de confirmare, indică
+faptul că: Destinaţia a primit octetul 99 şi
+aşteaptă să-l primească pe 100
+
+5. Recepţionarea unei valori egale cu 100 în câmpul număr de confirmare şi a
+valorii 0 în câmpul fereastră, indică faptul că:Destinaţia a primit octetul 99 şi
+momentan nu mai doreşte să
+primească date
+
+6. Care este mecanismul prin care gazda destinaţie stabileşte cantitatea de date pe
+care doreşte să o primească în segmentul următor: Fereastra glisantă.
+
+7. În cadrul nivelului sesiune, separarea dialogului este:Iniţierea, administrarea şi
+terminarea comunicării dintre două
+aplicaţii.
+
+8. La gazda sursă, nivelul prezentare realizează:Formatarea, criptarea şi
+comprimare datelor.
+
+9.Când avem de a face cu o creştere exponenţială a numărului de pachete pe care îl
+transmite gazda în reţea:Atunci când primeşte o
+confirmare a pachetelor transmise
+anterior
+
+10. Într-o inter-reţea un flux este:O secvenţă de pachete
+transmise de la o gazdă sursă la o
+gazdă destinaţie, care urmează un
+acelaşi drum, în reţeaua de
+comunicaţie a inter-reţelei.
+
+
+Modul 3 Unitate 3
+
+1. Cum se numeşte componenta mecanismului RPC, prin care la nivelul gazdei client,
+limbajele de programare şi compilatoarele împachetează argumentele într-un mesaj
+cerere, care apoi să poată fi translatat în argumente pe gazda server: compilator ciot
+
+2.Care dintre componentele mecanismului RPC face diferenţa dintre un apel la
+distanţă şi unul local: compilator Stub
+
+3.În cadrul protocolului BLAST, după fragmentarea mesajului şi transmiterea
+fiecăruia dintre fragmente, se setează un ceas numit: DONE
+
+4.În cadrul protocolului BLAST, când se consideră o legătura pierdută:Dacă ceasul DONE depăşeşte
+un anumit prag..
+
+5.În algoritmul BLAST, dacă ceasul RETRY depăşeşte o valoare dată, o dată sau de
+două ori, atunci:Procesul destinatar
+determină care fragmente nu au
+fost încă primite şi retransmite
+un mesaj SRR
+
+6. În cadrul protocolului BLAST, la nivelul părţii destinatar, atunci când soseşte
+primul fragment: Se iniţializează o structură de
+date, în care se păstrează fiecare
+fragment primit şi se setează un
+ceas LAST_FRAG, care măsoară
+intervalul de timp care a trecut de
+la sosirea ultimului fragment
+
+7. În antetul unui mesaj BLAST, toate fragmentele care aparţin aceluiaşi mesaj au
+aceeaşi valoare în câmpul: MID
+
+8. Care dintre microprotocoalele RPC garantează furnizarea integrală a mesajelor,
+asigură că este furnizată numai o copie a fiecărui mesaj şi permite sincronizarea
+proceselor care comunică între ele: CHAN
+
+9. Care câmp al antetutului CHAN identifică în mod unic canalul logic la care aparţine
+mesajul respectiv: CID
+
+10. Microprotocolul SELECT identifică procedurile printr-o adresă pe: doua niveluri
+
+11. Un mesaj SRR, transmis de procesul destinaţie, după ce a primit fragmentele 1, 2,
+4, 5, 6, 8 va conţine:Numărul de fragment 8.
+
+12.În cadrul protocolului SunRPC, identificatorul tranzacţiei este conţinut în câmpul
+antetului: XID in curs (?CID in grile?)
+
+13. Spre deosebire de Sun RPC, DCE-RPC: implementează transmiterea a cel mult unui mesaj pe un canal logic
+
+
+
+Modul 3 Unitate 4
+
+1. În notaţia CIDR cu /n, prima adresă a unui bloc de adrese IP poate fi obţinută în
+reprezentare binară, dintr-o adresă a blocului: Setând cei 32-n biţi cei
+mai din dreapta cu 0.
+
+2.În notaţia CIDR cu /n, ultima adresă a unui bloc de adrese IP poate fi obţinută în
+reprezentare binară, dintr-o adresă a blocului:Setând cei 32-n biţi cei
+mai din dreapta cu 1.
+
+3. În cadrul CIDR, adresa reţelei este: Prima adresă din blocul
+alocat. 
+
+4. Conform CIDR sunt alocate pentru Europa: Adresele de la 194.0.0.0 la
+195.255.255.255.
+
+5. Conform CIDR sunt alocate pentru America de Nord:Adresele de la 198.0.0.0
+la 199.255.255.255
+
+6. Conform CIDR sunt alocate pentru America Centrala si de Sud: Adresele de la 200.0.0.0
+la 201.255.255.255. 
+
+7.Conform CIDR sunt alocate pentru Asia: Adresele de la 202.0.0.0 la
+203.255.255.255.
+
+8. În cadrul IPv6 sunt rezervate pentru IPv4 adresele care încep cu: 8 zerouri
+
+9. În cadrul adreselor de transmitere multiplă IPv6, după prefix urmează: Un câmp indicator de 4 biţi,
+un câmp domeniu de 4 biţi şi
+un identificator de grup de 112
+biţi.
+
+10. Mecanismul NAT reprezintă: Transformarea unei adrese IP
+nerutabile într-una care este
+rutabilă.
+
+
+
+Modul 3 Unitate 5
+
+1. Redirectorul este:
+Protocolul care lucrează la nivelul
+sistemului de operare şi permite să se
+facă distincţia între cererile adresate
+unităţii centrale a calculatorului
+respectiv şi cele adresate unui server.
+
+2.Domeniul este:Un grup de calculatoare care sunt
+asociate prin localizarea lor geografică
+sau prin tipul de activitate al
+organizaţiei pe care o deservesc
+
+3. Numele DNS: sunt prelucrate de la dreapta la stânga, separatorul fiind caracterul “.”.
+Sunt prelucrate de la dreapta la
+stânga, separatorul fiind caracterul “.”.
+
+4. În cadrul unei inregistrări dintr-un server de nume, dacă valoarea conţinută este numele de
+domeniu pentru o gazdă care execută un server de nume, care ştie cum să rezolve problema
+numelui, în interiorul domeniului specificat, tipul înregistrării respective este:  NS
+
+5. Protocolul care asigură transferul mesajului de email de la o gazdă la alta este:
+SMTP
+
+6. Protocol utilizat pentru regăsirea mesajelor de email din baza de date este:
+POP3
+
+7. Diferenţa dinte o poartă implicită de mail(PIM) şi o poartă implicită(gateway) este:
+PIM păstrează mesajele într-un
+„buffer” pe disc, pe când un router IP
+păstrează mesajele într-un „buffer” din
+memoria internă
+
+8. Protocolul prin care clienţii şi serverele se pot înţelege prin Internet este:
+HTTP.
+
+9. Accesarea de către un utilizator a unei aplicaţii care se execută pe un calculator conectat la
+o reţea se realizează prin:Sistemul de operare al gazdei.
+
+10. Fiecare mesaj ICMP este inclus în: Câmpul de date al unui pachet IP.
+
+11. Un router, atunci când nu poate trece mai departe un pachet, spre un alt ruter sau direct
+spre sistemul de destinaţie, transmite un mesaj:Destinaţie inaccesibilă.
+
+12.Prin care tip de mesaj DHCP se face confirmarea de la un server catre un client, conţinând
+parametri, inclusiv adresa IP: DHCPACK
+
+
+
+Modul 4 Unitate 1
+
+1. Protecţia furnizată de către un sistem de criptare cu chei publice, este măsurată în:
+Dificultatea găsirii valorii cheii de
+decriptare folosită de către sistem.
+
+2. Cea mai comună combinaţie de trei litere în limba engleză este: "the"
+ 
+3. În cadrul cărei metode de criptare permutarea literelor este o cheie:Substituirea simplă.
+
+4. Care dintre metodele de criptare tradiţionale reordonează literele, dar nu le deghizează: Cifrurile cu transpoziţie
+
+5. Algoritmul standard de criptare a datelor este un bloc de cifrare ce criptează: 
+Blocuri de date pe 64 biţi, folosind o
+cheie pe 56 de biţi, care este extinsă la
+64 de biţi, prin adăugarea a 8 biţi de
+paritate
+
+6. Înlănţuirea blocurilor de cifrare, este legată de metoda:DES
+
+7. În cadrul criptografiei cu cheie publică, sunt secrete:Procedura de decriptare şi cheia
+asociată.
+
+8. Problema distribuirii cheii se referă la:Un secret al comunicaţiei este
+transmis pe căi nesigure, înaintea
+oricărei transmisii efective de date
+
+9. Metoda RSA presupune că:Textul clar sub formă binară este
+împărţit în blocuri, un bloc fiind
+reprezentat printr-un întreg cuprins între
+0 şi n-1, cheia de criptare este o pereche
+(e,n), unde e este un întreg pozitiv şi un
+bloc mesaj M este criptat după formula
+C = M ^ e (modulo n).
+
+10. Sistemele bazate pe trunchierea prelucrează mesaje de până la:) 2^64 biţi
+
+11. O modalitate de a asigura integritatea mesajului este:De a-l cripta cu DES şi apoi să se
+folosească reziduul CBC ca fiind codul
+de integritate al mesajului. 
+
+12. Pentru a se face semnătura digitală folosind RSA şi MD5: 
+ La gazda sursă se execută MD5
+asupra mesajului original, suma de
+verificare rezultată este criptată
+folosind metoda RSA şi cheia privată
+asociată sursei, notată priv şi
+mesajul semnat care va fi transmis
+este m+E(MD5(m),priv).
+
+
+Modul 4 Unitate 2
+
+1. În cadrul autentificării cu chei secrete, pentru a decripta un număr primit serverul foloseşte
+cheia SHK: Pe care el o asociază clientului
+identificat cu clientid.
+
+2. În cadrul autentificării cu chei secrete, clientul a autentificat serverul :
+După decriptarea primei părţi a
+ultimului mesaj primit şi verificarea
+faptului că rezultatul este mai mare cu
+1 decât numărul aleator pe care l-a
+primit de la server.
+
+3. În cadrul autentificării cu chei publice, cei doi participanţi la comunicaţie se adresează:Serverului de autentificare.
+
+4. În cadrul autentificării cu chei publice, care dintre componente generează o valoare a
+timpului T, un timp de viaţă L şi o nouă cheie de sesiune K:  Serverul de autentificare
+
+5. Care dintre modurile de utilizare a IP Security, asigură protecţie numai pentru informaţia
+primită de la protocoalele de nivel imediat superior IP:
+Modul transport.
+
+6. Care dintre modurile de utilizare a IP Security , asigură protectie pentru întregul pachet IP:Modul tunel.
+
+7. Care dintre grupurile de specificaţii IPSec, conţine formatul pachetului si probleme legate
+de utilizarea ESP pentru criptare şi, opţional pentru autentificare: Protocolul ESP. 
+
+8. Atacul în care intrusul creează pachete IP cu adrese IP false şi exploatează utilizarea de
+către aplicaţii a adreselor IP pentru autentificare, se numeşte: ”IP spoofing”
+
+9. Pentru a furniza autentificare, integritate şi caracter privat, tehnologia VPN foloseşte:
+IPSec în modul tunel
+
+10. Care dintre componentele SSL se află deasupra nivelului transport: SSL Record..
+
+11. Protocolul SSL record fragmentează datele care vor fi transmise, în blocuri de cel mult:
+2^14 octeti.
+
+12. PGP utilizează:
+ O cheie de folosinţă unică care este
+generată ca număr aleator pe 128 pe biţi
+pentru fiecare mesaj şi este ataşată
+mesajului.
+
+13. Toate mesajele prelucrate în PEM încorporeazǎ:
+Facilitǎtile de autentificare, integritate
+şi nerepudiere
+
+14. În cadrul unui zid de protecţie, proxy-serverele controlează traficul la nivelul:Aplicaţie
+
+15. DMZ este zona din jurul firewall-ului în care sunt situate: Calculatoare pe care sunt instalate
+servere cu caracter public..
